@@ -1,0 +1,16 @@
+[
+	{
+		"id": 1,
+		"slug": "first-post",
+		"title": "My First Blog Post",
+		"content": "This is the content of my first blog post. It's about learning Next.js and building a static blog.",
+		"date": "2025-05-16"
+	},
+	{
+		"id": 2,
+		"slug": "second-post",
+		"title": "Exploring SSG with Next.js",
+		"content": "In this post, we dive into Static Site Generation and how it improves performance.",
+		"date": "2025-05-15"
+	}
+]
