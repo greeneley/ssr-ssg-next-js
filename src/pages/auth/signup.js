@@ -4,6 +4,8 @@ import bcrypt from "bcryptjs";
 import { PrismaClient } from "@prisma/client";
 import axios from "axios";
 
+const prisma = new PrismaClient();
+
 export default function SignUp() {
 	const [email, setEmail] = useState("");
 	const [password, setPassword] = useState("");
@@ -27,7 +29,6 @@ export default function SignUp() {
 			setError(errorMessage);
 		}
 	};
-
 	return (
 		<div className="container mx-auto p-4 max-w-md">
 			<h1 className="text-3xl font-bold mb-6 text-center">Sign Up</h1>
